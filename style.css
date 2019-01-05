@@ -38,7 +38,7 @@ body{
 }
 
 #signin .logo{
-        padding-top:5rem;
+        padding-top:2rem;
         padding-bottom: 1rem;
        
 }
@@ -162,7 +162,7 @@ body{
     text-align:center;
     max-width: 80%;
     padding-top: 1rem;
-    margin-top:5rem;
+    margin-top:2rem;
 }
 #main-footer a{
     color: #f96816;
@@ -200,11 +200,6 @@ body{
         justify-content: start;
         margin-top: 4vh;
     }
-    #signin .pic{
-        margin-top: 80vh;
-    }
-    #main-footer{
-         margin-top:90vh;
-    }
+  
     
 }
