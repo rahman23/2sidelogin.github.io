@@ -12,25 +12,51 @@ body{
 }
 
 #wrapper{
-    display:flex;
+      display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
 }
 
 #left{
     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction:column;
     align-items:center;
     height:100vh;
     flex:2;
     justify-content: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
 }
 #signin{
-    display: flex;
+       display: flex;
+        display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction:column;
     align-items:center;
     width:80%;
     padding-bottom: 0.5rem;
     justify-content: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
 }
 #signin form{
     width:80%;
@@ -39,13 +65,11 @@ body{
 
 #signin .logo{
         padding-top:2rem;
-        padding-bottom: 1rem;
-       
+        padding-bottom: 1rem;       
 }
 
 #signin .pic{
-        height:25vh;
-       
+        height:25vh;       
 }
 
 #signin label{
@@ -64,8 +88,7 @@ body{
     color:azure;
     padding:0.5rem 1rem;
     line-height:1.3rem;
-    font-size:1rem;
-    
+    font-size:1rem;   
     
 }
 
@@ -136,7 +159,15 @@ body{
 #showcase{
     background: url('img/back.jpg') no-repeat center center / cover;
     height:100vh;
-    display:flex;
+    display:flex;    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;    
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -198,6 +229,10 @@ body{
     }
     #left{
         justify-content: start;
+        -webkit-box-pack: start;
+      -moz-box-pack: start;
+      -webkit-justify-content: start;
+     -ms-flex-pack: start;
         margin-top: 4vh;
     }
   
